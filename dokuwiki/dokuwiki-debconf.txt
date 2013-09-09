@@ -1,0 +1,18 @@
+dokuwiki	dokuwiki/wiki/confirm	password	asecret
+dokuwiki	dokuwiki/wiki/password	password	asecret
+dokuwiki	dokuwiki/system/localnet	string	10.0.0.0/24
+dokuwiki	dokuwiki/wiki/superuser	string	admin
+dokuwiki	dokuwiki/system/configure-webserver	multiselect	apache2
+dokuwiki	dokuwiki/wiki/fullname	string	DokuWiki Administrator
+dokuwiki	dokuwiki/wiki/failpass	error	
+dokuwiki	dokuwiki/wiki/acl	boolean	true
+dokuwiki	dokuwiki/system/writeconf	boolean	false
+dokuwiki	dokuwiki/system/restart-webserver	boolean	true
+dokuwiki	dokuwiki/wiki/license	select	cc-by-sa
+dokuwiki	dokuwiki/system/documentroot	string	/dokuwiki
+dokuwiki	dokuwiki/wiki/policy	select	public
+dokuwiki	dokuwiki/system/accessible	select	global
+dokuwiki	dokuwiki/system/purgepages	boolean	false
+dokuwiki	dokuwiki/wiki/email	string	webmaster@localhost
+dokuwiki	dokuwiki/system/writeplugins	boolean	false
+dokuwiki	dokuwiki/wiki/title	string	Kim sei DokuWiki
